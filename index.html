@@ -6,15 +6,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./src/styles/styles.css">
     <link rel="stylesheet" href="./src/styles/header.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Coffee Lua</title>
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-solid fa-mug-saucer" id="nav-logo">Coffee lua</i>
+            <i class="fa-solid fa-mug-saucer" id="nav-logo"> Coffee lua</i>
 
             <ul id="nav-list">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="#home">Home</a>
                 </li>
                 <li class="nav-item">
@@ -36,13 +38,13 @@
 
         <div id="mobile-menu">
             <ul id="mobile-nav-list">
-                <li class="item">
+                <li class="nav-item">
                     <a href="#home">Home</a>
                 </li>
-                <li class="item">
+                <li class="nav-item">
                     <a href="#menu">Menu</a>
                 </li>
-                <li class="item">
+                <li class="nav-item">
                     <a href="#reviews">Reviews</a>
                 </li>
             </ul>
@@ -52,5 +54,7 @@
             </button>
         </div>
     </header>
+
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
