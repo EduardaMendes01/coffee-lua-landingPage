@@ -71,9 +71,9 @@
 
 #img-b{
     position: absolute;
-    height: 205px;
-    width: 446px;
-    top: 153px;
+    height: 160px;
+    width: 450px;
+    top: 155px;
     right: 0px;
 }
 
@@ -94,4 +94,3 @@
         align-items: center;
     }
 }
-
