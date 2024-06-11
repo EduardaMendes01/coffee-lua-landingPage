@@ -27,7 +27,7 @@
     gap: 18px;
     width: 45%;
     padding: 20px;
-    background-color: #fff9ea;
+    background-color: var(--color-neutral-0);
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
@@ -35,12 +35,12 @@
 
 .coffee-heart{
     position: absolute;
-    background-color: #e9a209;
+    background-color: var(--color-1);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.563rem;
-    color: black;
+    color: var(--color-2);
     width: 70px;
     height: 70px;
     right: -10px;

@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('header.css');
+@import url('home.css');
+@import url('menu.css');
+@import url('reviews.css');
+@import url('footer.css');
+
+:root {
+    --color-1: #29010A;
+    --color-2: #670616;
+    --color-3: #AD2742;
+    --color-4: #A57996;
+    --color-5: #A1A841;
+
+    --color-neutral-0: #fff;
+    --color-neutral-1: #1d1d1d;
+
+    --color-hover-button:#f6b456;
+}
 
 *{
     font-family: "Libre Baskerville", serif;
@@ -8,7 +26,7 @@
 }
 
 body{
-    background-color: #50FFB1;
+    background-color: var(--color-3);
 }
 section{
     padding: 28px 8%;
@@ -19,7 +37,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F4AC45;
+    background-color: var(--color-5);
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 400;
@@ -29,12 +47,7 @@ section{
 }
 
 .btn-default:hover{
-    background-color: #f6b456;
-}
-
-
-.bnt-default:hover{
-    background-color: #dd9b3f;
+    background-color: var(--color-hover-button);
 }
 
 .social-media-buttons{
@@ -48,24 +61,24 @@ section{
     justify-content: center;
     width: 45px;
     height: 40px;
-    background-color: #fff;
+    background-color: var(--color-neutral-0);
     font-size: 1.25rem;
     border-radius: 10px;
     text-decoration: none;
-    color: #F4AC45;
+    color: var(--color-1);
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow .3s ease;
 }
 
 .social-media-buttons a:hover{
-    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.2);
 }
 
 .section-title{
-    color: #00A7E1;
+    color: var(--color-2);
     font-size: 1.563rem;
 }
 
 .section-subtitle{
-    font-size: 2.1875rem;
+    font-size: 2rem;
 }

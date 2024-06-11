@@ -18,7 +18,7 @@
 }
 
 #cta .title span{
-    color: #F4AC45;
+    color: var(--color-4);
 }
 
 #cta .description{
@@ -39,7 +39,7 @@
     display: flex;
     gap: 8px;
     align-items: center;
-    background-color: #fff;
+    background-color: --color-neutral-0;
     padding: 8px 14px;
     font-weight: 200;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
@@ -59,7 +59,7 @@
 }
 
 .shape{
-    background-color: #00A7E1;
+    background-color: var(--color-1);
     width: 50%;
     height: 100%;
     position: absolute;
